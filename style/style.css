@@ -1,0 +1,14 @@
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+.root{
+    --background: #F9FAFB;
+    --cinza: #3A404E;
+    --cinza-Secundario: #667085;
+    --preto: #101828;
+    --vinho: #8E2424;
+    --cor-Funda: rgba(196, 25, 25, 0.03);
+    --fonte_Inter: 'Inter', sans-serif;
+}

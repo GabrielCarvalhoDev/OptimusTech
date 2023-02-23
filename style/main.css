@@ -1,0 +1,183 @@
+section{
+    margin: 28px 122px;
+}
+
+.conteudo__sobre_nos{
+    text-align: center;
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sobre_nos{
+    color: #8E2424;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.conteudo__titulo__principal{
+   color: #101828;
+   font-size: 48px;
+   font-weight: 600;
+}
+
+.conteudo__paragrafo{
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conteudo__info{
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    text-align: center;
+    /* margin: 28px 122px; */
+    padding: 0px 0px 96px;
+    justify-content: center;
+}
+
+.conteudo__info__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+
+.conteudo__titulo__secundario{
+    color: #8E2424;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.conteudo__subtitulo{
+    color: #101828;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    white-space:nowrap;
+    align-content: center;
+}
+
+.conteudo__subtitulo__paragrafo{
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.conteudo__vagas__abertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.vagas__abertas{
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.vagas__abertas__titulo__principal{
+    color:#101828;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.vagas__abertas__paragrafo{
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conteudo__profissoes{
+    width: 60%;
+}
+
+.conteudo__profissoes__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.profissoes__design__opcoes{
+    border: 1px solid #EAECF0;
+    width: 100%;
+    border-radius: 16px;
+    padding: 24px 24px 24px;
+}
+
+.conteudo__profissoes__opcoes{
+    font-size: 20px;
+    font-weight: 500;
+    color: #101828;
+    margin: 64px 0 0 0; 
+}
+
+.profissoes__titulo{
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+}
+.profissoes__remuneracao{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin: 3em 4em 1em 0em;
+
+}
+.conteudo__profissoes__paragrafo, .conteudo__profissoes__salario{
+    color: #667085;
+    font-family: 16px;
+    font-weight: 500;
+}
+
+.conteudo__final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(142, 36, 36, 0.05) ;
+    padding: 64px;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+.conteudo__colaborador{
+    color: #8E2424;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.conteudo__titulo__colaborador{
+    color: #101828;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 0px 0px 96px;
+    text-align: center;
+    
+}
+
+.avatar__foto{
+    width: 56px;
+}
+
+.colaborador__nome{
+    color: #101828;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.colaborador__descricao{
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+}
