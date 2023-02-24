@@ -6,8 +6,8 @@
 }
 
 body{
-    background-color: var(--Background);
-    font-family: 'Inter', sans-serif;
+    background-color: var(--branco);
+    font-family:var(--fonte_Inter);
     /* margin: 28px 122px; */
 }
 
@@ -33,7 +33,7 @@ body{
     align-items: center;
 }
 .titulo-cabecalho{
-    color: #3A404E;
+    color: var(--cinza);
 }
 .botoes-navegacao{
     width: auto;
@@ -45,7 +45,7 @@ body{
 
 .texto-cabecalho{
     text-decoration: none;
-    color: #667085;
+    color: var(--cinza-claro);
     font-weight: 500;
     font-size: 16px;
 }
@@ -59,13 +59,13 @@ body{
 
 .botao__login__cadastro{
     text-decoration: none;
-    color: #667085;
+    color: var(--cinza-claro);
 }
 
 .cadastro{
     border: 2px;
-    background-color:#8E2424;
-    color:#FFFFFF;
+    background-color:var(--vinho);
+    color:var(--branco);
     padding: 10px 18px;
     border-radius: 8px;
     font-size: 16px;

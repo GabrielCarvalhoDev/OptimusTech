@@ -3,12 +3,15 @@
 @import url("footer.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
-.root{
-    --background: #F9FAFB;
+:root{
+    --branco: #FFFFFF;
+    --branco2: #EAECF0;
+    --branco3: #F9FAFB;
+    --branco4: #D0D5DD;
     --cinza: #3A404E;
-    --cinza-Secundario: #667085;
+    --cinza-claro: #667085;
     --preto: #101828;
     --vinho: #8E2424;
-    --cor-Funda: rgba(196, 25, 25, 0.03);
+    --cor-fundo: rgba(196, 25, 25, 0.03);
     --fonte_Inter: 'Inter', sans-serif;
 }

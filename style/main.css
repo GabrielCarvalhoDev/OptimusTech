@@ -11,19 +11,19 @@ section{
 }
 
 .sobre_nos{
-    color: #8E2424;
+    color: var(--vinho);
     font-size: 16px;
     font-weight: 600
 }
 
 .conteudo__titulo__principal{
-   color: #101828;
+   color: var(--preto);
    font-size: 48px;
    font-weight: 600;
 }
 
 .conteudo__paragrafo{
-    color: #667085;
+    color: var(--cinza-claro);
     font-size: 20px;
     font-weight: 400;
 }
@@ -47,13 +47,13 @@ section{
 }
 
 .conteudo__titulo__secundario{
-    color: #8E2424;
+    color: var(--vinho);
     font-size: 60px;
     font-weight: 600;
 }
 
 .conteudo__subtitulo{
-    color: #101828;
+    color: var(--preto);
     font-size: 18px;
     font-weight: 500;
     display: flex;
@@ -62,7 +62,7 @@ section{
 }
 
 .conteudo__subtitulo__paragrafo{
-    color: #667085;
+    color: var(--cinza-claro);
     font-size: 16px;
     font-weight: 400;
 }
@@ -77,22 +77,22 @@ section{
 }
 
 .vagas__abertas{
-    color: #8E2424;
+    color: var(--vinho);
     font-size: 14px;
     font-weight: 500;
-    background-color: rgba(142, 36, 36, 0.05);
+    background-color: var(--cor-fundo);
     padding: 4px 12px;
     border-radius: 16px;
 }
 
 .vagas__abertas__titulo__principal{
-    color:#101828;
+    color: var(--preto);
     font-size: 36px;
     font-weight: 600;
 }
 
 .vagas__abertas__paragrafo{
-    color: #667085;
+    color: var(--cinza-claro);
     font-size: 20px;
     font-weight: 400;
 }
@@ -109,7 +109,7 @@ section{
 }
 
 .profissoes__design__opcoes{
-    border: 1px solid #EAECF0;
+    border: 1px solid var(--branco2);
     width: 100%;
     border-radius: 16px;
     padding: 24px 24px 24px;
@@ -118,12 +118,12 @@ section{
 .conteudo__profissoes__opcoes{
     font-size: 20px;
     font-weight: 500;
-    color: #101828;
+    color: var(--preto);
     margin: 64px 0 0 0; 
 }
 
 .profissoes__titulo{
-    color: #101828;
+    color: var(--preto);
     font-weight: 500;
     font-size: 18px;
 }
@@ -135,7 +135,7 @@ section{
 
 }
 .conteudo__profissoes__paragrafo, .conteudo__profissoes__salario{
-    color: #667085;
+    color: var(--cinza-claro);
     font-family: 16px;
     font-weight: 500;
 }
@@ -144,7 +144,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(142, 36, 36, 0.05) ;
+    background-color: var(--cor-fundo) ;
     padding: 64px;
     justify-content: space-between;
     gap: 16px;
@@ -152,13 +152,13 @@ section{
 }
 
 .conteudo__colaborador{
-    color: #8E2424;
+    color: var(--vinho);
     font-size: 20px;
     font-weight: 600;
 }
 
 .conteudo__titulo__colaborador{
-    color: #101828;
+    color: var(--preto);
     font-size: 36px;
     font-weight: 500;
     padding: 0px 0px 96px;
@@ -171,13 +171,13 @@ section{
 }
 
 .colaborador__nome{
-    color: #101828;
+    color: var(--preto);
     font-weight: 500;
     font-size: 24px;
 }
 
 .colaborador__descricao{
-    color: #667085;
+    color: var(--cinza-claro);
     font-size: 20px;
     font-weight: 400;
 }
